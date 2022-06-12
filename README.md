@@ -5,7 +5,7 @@ An example e-commerce store React app inspired by Open Study College
 
 - **App**
     
-    State: N/A
+    State: Cart Add/Remove
     Props: N/A
     Behaviour: Render whole app
 
@@ -28,6 +28,6 @@ An example e-commerce store React app inspired by Open Study College
 
         - **Card**
 
-            State: Cart Add/Remove
-            Props: Courses
+            State: N/A
+            Props: Courses, Cart Add/Remove
             Behaviour: Render a course
