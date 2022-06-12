@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+
+  .title {
+    display: flex;
+    font-size: 2rem;
+    align-self: center;
+    text-align: center;
+  }
+
+  .container {
+    padding: 5px;
+    cursor: pointer;
+  }
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
