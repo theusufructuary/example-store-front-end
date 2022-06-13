@@ -1,7 +1,32 @@
 # example-store-front-end
 An example e-commerce store React app inspired by Open Study College
 
-### App component tree
+<br>
+
+### **For more information, see the README of the Back-end repo**
+[https://github.com/theusufructuary/example-store-api](https://github.com/theusufructuary/example-store-api)
+
+<br>
+
+## 1. Set Up (Front End)
+
+a). To install, clone this repo via the terminal by running:
+    
+    git clone https://github.com/theusufructuary/example-store-front-end
+    
+    cd example-store-front-end
+    
+    npm install
+
+b). Launch a local version of the React app:
+
+    npm start
+
+Note: Ensure example-store-api is also set up as per the instructions on that repo too, otherwise data will not be displayed in the Card components.
+
+<br>
+
+## 2. Front End App Component Tree
 
 - **App**
     
@@ -11,7 +36,7 @@ An example e-commerce store React app inspired by Open Study College
 
     - **NavBar**
         
-        State: Categories
+        State: N/A
         Props: N/A
         Behaviour: Render Navbar
     - **Cart**
@@ -23,7 +48,7 @@ An example e-commerce store React app inspired by Open Study College
     - **Cards**
         
         State: Courses
-        Props: Categories
+        Props: N/A
         Behaviour: Render all course items
 
         - **Card**
