@@ -1,13 +1,10 @@
-import React from "react";
+import React from 'react';
+import css from './Card.module.css';
 
 function Card({ data }) {
-  console.log(JSON.stringify(data));
-  console.log("Card component called");
   return (
-    <div>
-      <div>
-        {data.title}
-      </div>
+    <div className={css.card}>
+      <h1>{data.title}</h1>
       <h3>{data.subtitle}</h3>
       <p>{data.subscribe}</p>
       <p>{data.price}</p>

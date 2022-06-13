@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
-import Card from "../Card/Card";
+import React, { useEffect, useState } from 'react';
+import Card from '../Card/Card';
+import css from './Cards.module.css';
 
 function Cards() {
-  const [courses, setCourses] = useState(null);
-  console.log("Card component called"); 
+  const [courses, setCourses] = useState(null); 
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
@@ -13,20 +13,16 @@ function Cards() {
       setCourses(data);
     }
     fetchData();
-
-    console.log(courses);
   }, []);
 
   return (
-    <div>
-      <div>
+      <div className={css.cards}>
         {courses
           ? courses.map((course) => {
-              return <Card data={course} />;
+              return <Card data={course} key={course.course_id} />;
             })
           : `Loading Data...`}
       </div>
-    </div>
   );
 }
 
