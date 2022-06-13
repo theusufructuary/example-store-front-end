@@ -19,7 +19,7 @@ function Cards() {
       <div className={css.cards}>
         {courses
           ? courses.map((course) => {
-              return <Card data={course} />;
+              return <Card data={course} key={course.course_id} />;
             })
           : `Loading Data...`}
       </div>
