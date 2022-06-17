@@ -1,13 +1,13 @@
 import React from 'react';
 
-import './App.css';
+import css from './App.module.css';
 
 import NavBar from '../NavBar/NavBar.js';
 import Cards from '../Cards/Cards.js';
 
 function App() {
   return (
-    <div className="App">
+    <div className={css.App}>
       <NavBar />
       <Cards />
     </div>
