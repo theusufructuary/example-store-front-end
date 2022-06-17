@@ -4,10 +4,11 @@ import css from './Card.module.css';
 function Card({ data }) {
   return (
     <div className={css.card}>
-      <h1>{data.title}</h1>
-      <h3>{data.subtitle}</h3>
+      <h3>{data.title}</h3>
+      <h4>{data.subtitle}</h4>
       <p>{data.subscribe}</p>
       <p>{data.price}</p>
+
     </div>
   );
 }
