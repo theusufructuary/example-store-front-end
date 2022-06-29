@@ -3,6 +3,11 @@ An example e-commerce store React app inspired by Open Study College
 
 <br>
 
+# *Work In Progress*
+*This project is a part-time educational and showcasing project which is currently a work in progress.*
+
+<br>
+
 ### **For more information, see the README of the Back-end repo**
 [https://github.com/theusufructuary/example-store-api](https://github.com/theusufructuary/example-store-api)
 
