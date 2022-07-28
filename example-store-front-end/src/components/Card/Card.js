@@ -1,9 +1,10 @@
 import React from 'react';
 import css from './Card.module.css';
 
-function Card({ data }) {
+function Card({ data, key }) {
+  console.log("card.js", data);
   return (
-    <div className={css.card}>
+    <div className={css.card} key={key}>
       <h3>{data.title}</h3>
       <h4>{data.subtitle}</h4>
       <p className={css.subscribe}>{data.subscribe}</p>
